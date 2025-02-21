@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Metallic blue gradient -->
+  <defs>
+    <linearGradient id="metallic-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2B5B9B"/>
+      <stop offset="50%" style="stop-color:#4A90E2"/>
+      <stop offset="100%" style="stop-color:#2B5B9B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagon with Circuit - Centered in viewport -->
+  <g transform="translate(25,25)">
+    <path d="M25 5 L45 15 L45 35 L25 45 L5 35 L5 15 Z" fill="url(#metallic-blue)"/>
+    <path d="M15 25 L35 25 M25 15 L25 35" stroke="#FFFFFF" stroke-width="1" opacity="0.7"/>
+    <circle cx="25" cy="25" r="3" fill="#FFFFFF"/>
+    <circle cx="15" cy="15" r="2" fill="#FFFFFF"/>
+    <circle cx="35" cy="35" r="2" fill="#FFFFFF"/>
+  </g>
+</svg>
